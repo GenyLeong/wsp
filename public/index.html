@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  	<meta charset="utf-8">
+	  	<title>Whatsapp Web</title>
+	  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  	<link rel="shortcut icon" href="image/favicon.png" type="image/png">
+	  	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
+	  	<link rel="stylesheet" href="css/materialdesignicons.css">
+  		<link rel="stylesheet" href="css/icomoon.css">
+	  	<link rel="stylesheet" href="css/main.css" type="text/css">
+	  	<link rel="stylesheet" href="css/queries.css" type="text/css">
+	  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	  	<script src="js/jquery.js"></script>
+	  	<script src="./socket.io/socket.io.js"></script>
+	</head>
+	<body>
+		<header></header>
+		<section>
+			<div class="container">
+				<div class="caja-principal">
+					<div class="row">
+						<div class="col-sm-4 col-xs-12">
+							<div class="box-uno">
+								<div class="row">
+									<div class="col-xs-1">
+										<img class="img-circulo" src="image/gian.jpg">
+									</div>
+									<div class="col-xs-11">
+										<i class="mdi mdi-dots-vertical"></i>
+										<i class="mdi mdi-message-text"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-8 none">
+							<div class="box-dos cabecera">
+								<div class="row">
+									<div class="col-sm-1">
+										<img class="img-circulo" src="image/logocodeacademy.png">
+									</div>
+									<div class="col-sm-8">
+										<h4 class="nombre_cabecera">Laboratoria Perú</h4>
+										<p class="nombres"></p>
+										<p class="hora_cabecera"></p>
+									</div>
+									<div class="col-sm-3">
+										<i class="mdi mdi-dots-vertical"></i>
+										<i class="icomoon icon-attachment"></i>
+									</div>
+								</div>						    		
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4 col-xs-12">
+							<div class="box-buscar">
+								<div class="buscar">
+									<i class="fa fa-search"></i>
+									<input type="search" class="form-search" id="search" placeholder="Buscar o empezar un chat nuevo">	
+								</div>
+							</div>
+							<div class="box-white">	
+							</div>
+						</div>
+						<div class="col-sm-8 hidden-xs">
+							<div class="fondo-whatsapp" id = "messages">
+							<div class="otros"></div>
+							</div>
+							<div class="box-message">
+										<div class="message">
+											<i class="fa fa-smile-o"></i>
+											<input type="text" class="word" id="text" placeholder="Escribe tu mensaje aquí">
+											<i class="fa fa-microphone"></i>
+										</div>
+									</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="js/data.js"></script>
+		<script src="js/main.js"></script>
+		<script type="text/javascript" src="http://cob.do.am/emoticones/emoticonesmextl.js"></script>
+	</body>
+</html>

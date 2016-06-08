@@ -1,0 +1,198 @@
+body {
+	background-color: #DFDFDF;
+}
+
+header {
+	 background-color: #009688;
+	 width: 100%;
+	 height: 140px;
+}
+
+.caja-principal {
+	bottom: 100px;
+}
+
+.box-uno {
+	border-right-color: rgb(225, 223, 222) !important;
+}
+
+.box-uno, .box-dos {
+	background-color: #EEEEEE;
+	padding: 7px 30px !important;
+	border: 1px solid #EEEEEE;
+}
+
+.img-circulo, .circulo-contactos {
+	width: 42px;
+	height: 42px;
+	border-radius: 100%;
+}
+.cabecera{
+		    height: 58px;
+}
+
+.mdi, .icon-attachment {
+	
+	font-size: 21px;
+	color: #A6ACB9;
+	float: right;
+	padding-top: 10px;
+}
+
+.box-contactos:hover {
+	background-color: rgba(204, 204, 204, 0.47);
+}
+
+.mdi-message-text, .icon-attachment {
+	margin-right: 21px;
+}
+
+[class*="col-"] {
+	padding: 0;
+}
+
+.nombres, .nombre_cabecera, .contactos, .names-contactos{
+	margin: 0;
+    margin-left: 7px;
+}
+
+.buscar {
+	background-color: #FBFBFB;
+}
+
+.box-buscar, .box-white, .box-message {
+	background-color: #FFF;
+	padding: 0px;
+}
+
+.box-white, .fondo-whatsapp {
+	overflow-y: scroll;
+	 -webkit-overflow-scrolling: touch;
+	 height: 554px;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+  background: -webkit-linear-gradient(top, #CBCBCB, #CBCBCB);
+  -webkit-box-shadow:   inset 0 1px 0 rgba(255,255,225,.5),
+                inset 1px 0 0 rgba(255,255,255,.4),
+                inset 0 1px 2px rgba(255,255,255,.3);
+  border-radius: 10px;
+}
+
+.buscar, .box-contactos {
+	padding: 14px;
+}
+
+.form-search, .word  {
+	border : 1px solid #E3DFDA;
+	padding: 7px 7px 7px 30px;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.form-search, .fa-search, .word  {
+	font-size: 12px;
+	color: #92908F;
+}
+
+.fa-search {
+	left: 25px;
+	top: 25px;
+
+}
+
+.box-contactos {
+	border: 1px solid white;
+	border-top-color: rgb(225, 223, 222);
+}
+
+.circulo-contactos {
+	float: left;
+}
+
+.names-contactos, .contactos {
+	padding-left: 50px;
+	padding-right: 20px;
+}
+
+.time, .fa-search, .hora2, .hora, .fa-smile-o, .fa-microphone {
+	position: absolute;
+}
+
+.box-contactos, .caja-principal, .conversacion, .box-green, .message {
+	position: relative;
+}
+
+.time {
+	right: 0;
+	margin-right: 7px;
+	top: 12px;
+	color: #C6C6C6;
+}
+
+.fondo-whatsapp {
+	background: url(../image/chat-panel-bg.png)repeat;
+	background-color: #EDE9E4;
+	padding:0px; 
+}
+
+.pd-wsp {
+	padding: 28px 35px 5px;
+}
+
+.conversacion {
+	background-color: white;
+	margin-right: 50%;
+}
+
+.conversacion, .box-green {
+	padding: 10px;
+	margin-bottom: 3px;	
+	border-radius: 10px;
+}
+
+.box-green {
+	background-color: #DCF8C6;
+	margin-left: 50%; 
+	float: right;
+	min-width: 56px;
+}
+
+.hora2, .hora {
+	right: 0;
+	bottom: -7px;
+	margin-right: 14px;
+	color: #C6C6C6;
+}
+
+.message {
+	padding: 14px 70px;
+	background-color: #F3F0EF;
+}
+
+.word {
+	padding: 7px;
+}
+
+.fa-smile-o, .fa-microphone {
+    font-size: 25px;
+    color: #92908F;
+}
+
+.fa-smile-o {
+    margin-left: -45px;
+    margin-right: 10px;
+    bottom: 17px;    
+}
+
+.fa-microphone {
+    right: 0;
+    margin-right: 26px;
+    bottom: 15px;
+}
+
